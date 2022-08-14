@@ -14,12 +14,12 @@ body {
 }
 
 .container {
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10%;
-  border: 4px solid blue;
+  border: 7px solid blue;
   background-color: white;
   height: 80%;
   width: 80%;
@@ -27,13 +27,17 @@ body {
 .woman {
   position: absolute;
   top: 25%;
-  left: -3rem;
+  left: -4rem;
+  overflow: visible;
+  border: 2px solid red;
 }
 .box {
   position: absolute;
-  left: -10rem;
-  top: 47%;
+  left: -6rem;
+  top: 46%;
   z-index: 1;
+  height: 25%;
+  width: auto;
 }
 .pattern {
   position: absolute;
@@ -48,11 +52,11 @@ body {
 .main {
   display: flex;
   justify-content: space-around;
-  border: 2px solid red;
-
+  border: 10px solid red;
   margin: 15rem;
 }
 .text {
-  border: 10px solir yellowgreen;
+  border: 10px solid yellowgreen;
   width: 25rem;
+  margin-left: 10rem;
 }
