@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  border: 4px solid blue;
+  background-color: white;
+  height: 80%;
+  width: 80%;
+}
+.woman {
+  position: absolute;
+  top: 25%;
+  left: -3rem;
+}
+.box {
+  position: absolute;
+  left: -10rem;
+  top: 47%;
+  z-index: 1;
+}
+.pattern {
+  position: absolute;
+  right: 2rem;
+  bottom: -2rem;
+  left: -20rem;
+  /* height: 100%; */
+  overflow: hidden;
+  height: 130%;
+  width: 70%;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+
+  margin: 15rem;
+}
+.text {
+  border: 10px solir yellowgreen;
+  width: 25rem;
+}
